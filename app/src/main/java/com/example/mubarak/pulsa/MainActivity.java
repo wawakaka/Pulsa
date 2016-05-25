@@ -1,5 +1,6 @@
 package com.example.mubarak.pulsa;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         //Set the fragment initially
-        ReportListFragment fragment = new ReportListFragment();
+        RechargeFragment fragment = new RechargeFragment();
         android.support.v4.app.FragmentTransaction fragmentTransaction =
                 getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.fragment_container, fragment);
@@ -202,6 +203,8 @@ public class MainActivity extends AppCompatActivity
         SharedPreferences.Editor editora = settingsa.edit();
         editora.putString("mytexta", nomorMember.getText().toString());
         editora.commit();
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
 
     }
 

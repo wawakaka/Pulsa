@@ -10,7 +10,7 @@ import android.util.Log;
 /**
  * Created by MUBARAK on 5/24/2016.
  */
-public class DBAdapter {
+class DBAdapter {
     private static final String TAG = "DBAdapter"; //used for logging database version changes
 
     // Field Names: for table laporan
