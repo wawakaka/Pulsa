@@ -8,4 +8,15 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nomorOperator">Nomor Operator</string>
+    <string name="nomorMember">Nomor Member</string>
+    <string name="nomor">Nomor Tujuan</string>
+    <string name="nominal">Nominal</string>
+    <string name="nominal1">5</string>
+    <string name="nominal2">10</string>
+    <string name="nominal3">25</string>
+    <string name="kirim">Kirim</string>
+    <string name="set">Set</string>
+    <string name="nominal4">50</string>
+    <string name="nominal5">100</string>
 </resources>

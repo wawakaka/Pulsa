@@ -24,6 +24,7 @@ public class ReportListFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_report_list, container, false);
+
     }
 
 }
